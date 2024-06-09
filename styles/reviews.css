@@ -1,0 +1,29 @@
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.review:last-child {
+    border-bottom: none;
+}
+.review h3 {
+    color: #ff6f61;
+    margin: 0;
+}
+.review p {
+    margin: 5px 0;
+    color: #666;
+}
+.review .rating {
+    color: #ff6f61;
+}
