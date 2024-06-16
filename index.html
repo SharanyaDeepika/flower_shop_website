@@ -24,7 +24,8 @@
                             <input type="text" placeholder="Search" id="inp_search">
                         </div>
                     </div>
-                    <div class="cart">
+                    
+                   <div class="cart">
                         <img src="./res/imgs/cart.png" id="img_cart" alt="cart">
                     </div>
                     <div class="login">
@@ -99,6 +100,36 @@
                         <a href="./pages/products.html">View More ></a>
                     </div>
                 </div>
+                <body>
+                    <div class="Form">
+                        <div class="Form">
+                            <h2 id="Form">Contact Form</h2>
+                        </div>
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
             </div>
         </div>
         <div class="footer">
@@ -125,7 +156,8 @@
                     <a href="./pages/reviews.html" class="nav reviews">Reviews</a>
                     <a href="./pages/about.html" class="nav about">About Us</a>
                     <a href="./pages/support.html" class="nav support">Support</a>
-                </div>               
+                </div>  
+                             
             </div>
         </div>
     </main>

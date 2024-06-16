@@ -1,6 +1,6 @@
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -27,3 +27,4 @@ h1 {
 .review .rating {
     color: #ff6f61;
 }
+
